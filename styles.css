@@ -3,24 +3,25 @@
    =========================================================== */
 
 :root {
-  --navy: #0b1f3a;
-  --navy-800: #12294a;
-  --navy-700: #1b3a63;
-  --blue: #1f6feb;
-  --blue-600: #1559c4;
-  --cyan: #22d3ee;
-  --ink: #0e1726;
-  --slate: #475569;
-  --slate-300: #94a3b8;
-  --line: #e2e8f0;
+  /* Brand palette sampled from the SBTech logo (teal gradient + mint accent) */
+  --navy: #0f3b44;        /* deep teal — headings */
+  --navy-800: #134e59;    /* dark teal — dark sections */
+  --navy-700: #1d6f7e;    /* mid teal */
+  --blue: #2f96a9;        /* primary teal (logo) */
+  --blue-600: #1d6f7e;    /* darker teal — hover */
+  --cyan: #5fd6c4;        /* mint accent (logo icon) */
+  --ink: #122a30;
+  --slate: #4a6066;
+  --slate-300: #9fb6bc;
+  --line: #dde7e9;
   --bg: #ffffff;
-  --bg-soft: #f5f8fc;
+  --bg-soft: #f1f8f9;
   --white: #ffffff;
   --radius: 16px;
   --radius-sm: 10px;
-  --shadow-sm: 0 1px 3px rgba(11, 31, 58, .08), 0 1px 2px rgba(11, 31, 58, .06);
-  --shadow-md: 0 10px 30px rgba(11, 31, 58, .10);
-  --shadow-lg: 0 24px 60px rgba(11, 31, 58, .18);
+  --shadow-sm: 0 1px 3px rgba(15, 59, 68, .08), 0 1px 2px rgba(15, 59, 68, .06);
+  --shadow-md: 0 10px 30px rgba(15, 59, 68, .12);
+  --shadow-lg: 0 24px 60px rgba(15, 59, 68, .20);
   --grad: linear-gradient(120deg, var(--blue), var(--cyan));
   --maxw: 1140px;
 }
@@ -135,6 +136,10 @@ img { max-width: 100%; display: block; }
   font-size: .95rem;
 }
 .brand-accent { color: var(--blue); }
+
+/* Image logo */
+.brand-logo { height: 44px; width: auto; display: block; border-radius: 8px; }
+.brand-footer .brand-logo { height: 48px; }
 .nav {
   display: flex;
   align-items: center;
@@ -185,6 +190,14 @@ img { max-width: 100%; display: block; }
   font-size: clamp(2.3rem, 5vw, 3.6rem);
   margin-bottom: .5em;
 }
+.tagline {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--blue);
+  margin: -0.2rem 0 1rem;
+  letter-spacing: .01em;
+}
 .lead {
   font-size: 1.15rem;
   color: var(--slate);
@@ -225,6 +238,27 @@ img { max-width: 100%; display: block; }
   opacity: .35;
 }
 .hero-card-body { position: relative; }
+
+/* Hero illustration */
+.hero-image-wrap {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.hero-image-wrap .hero-card-glow {
+  inset: 10% -10% auto auto;
+  width: 360px; height: 360px;
+  opacity: .25;
+}
+.hero-image {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 18px;
+  box-shadow: var(--shadow-lg);
+}
 .hero-card-label {
   text-transform: uppercase;
   letter-spacing: .12em;
@@ -376,17 +410,27 @@ img { max-width: 100%; display: block; }
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 14px;
+  align-items: center;
+  gap: 18px;
 }
 .partners li {
   background: #fff;
   border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 12px 22px;
-  font-weight: 600;
-  color: var(--navy);
-  font-family: "Space Grotesk", sans-serif;
+  border-radius: var(--radius-sm);
+  padding: 18px 26px;
   box-shadow: var(--shadow-sm);
+  display: grid;
+  place-items: center;
+  min-width: 150px;
+  height: 92px;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.partners li:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.partners img {
+  max-height: 48px;
+  max-width: 150px;
+  width: auto;
+  object-fit: contain;
 }
 
 /* ---------- CTA ---------- */
