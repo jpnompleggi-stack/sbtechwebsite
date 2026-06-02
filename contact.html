@@ -22,9 +22,9 @@
       </a>
       <nav class="nav" id="nav">
         <a href="index.html#services">Services</a>
+        <a href="index.html#ai">AI Consulting</a>
         <a href="index.html#areas">What We Do</a>
         <a href="index.html#about">About</a>
-        <a href="index.html#partners">Partners</a>
         <a href="contact.html" class="active">Contact</a>
         <a href="contact.html" class="btn btn-primary nav-cta">Get in Touch</a>
       </nav>
@@ -47,7 +47,13 @@
       <div class="container contact-grid">
         <!-- Form -->
         <div class="contact-form-wrap">
-          <form id="contactForm" class="contact-form" novalidate>
+          <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+            <!-- Web3Forms config: replace the access key below with your own (see README) -->
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+            <input type="hidden" name="subject" value="New inquiry from sbtechma.com" />
+            <input type="hidden" name="from_name" value="SBTech Consulting Website" />
+            <!-- Honeypot spam trap (hidden from real users) -->
+            <input type="checkbox" name="botcheck" class="hp-field" tabindex="-1" autocomplete="off" />
             <div class="field">
               <label for="name">Name <span class="req">*</span></label>
               <input type="text" id="name" name="name" autocomplete="name" required />

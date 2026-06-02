@@ -344,6 +344,119 @@ img { max-width: 100%; display: block; }
 .card h3 { font-size: 1.08rem; }
 .card p { color: var(--slate); font-size: .95rem; margin: 0; }
 
+/* Featured (AI) service card */
+.card-featured {
+  position: relative;
+  background: linear-gradient(160deg, #103e47, #1d6f7e);
+  border-color: transparent;
+  color: #fff;
+}
+.card-featured h3 { color: #fff; }
+.card-featured p { color: #d6eef0; }
+.card-featured .card-icon { background: rgba(255,255,255,.12); }
+.card-featured:hover { box-shadow: var(--shadow-lg); }
+.card-badge {
+  position: absolute;
+  top: 16px; right: 16px;
+  background: var(--cyan);
+  color: #0f3b44;
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.card-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--cyan);
+  font-weight: 600;
+  font-size: .92rem;
+}
+.card-link:hover { color: #fff; }
+
+/* ---------- AI Consulting section ---------- */
+.ai {
+  position: relative;
+  overflow: hidden;
+  padding: 88px 0;
+  background: linear-gradient(150deg, #0d3640 0%, #134e59 55%, #1d6f7e 100%);
+  color: #fff;
+}
+.ai-bg { position: absolute; inset: 0; pointer-events: none; }
+.ai-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  opacity: .5;
+}
+.ai-orb-1 {
+  width: 380px; height: 380px;
+  background: radial-gradient(circle, var(--cyan), transparent 70%);
+  top: -120px; right: -60px;
+}
+.ai-orb-2 {
+  width: 320px; height: 320px;
+  background: radial-gradient(circle, #2f96a9, transparent 70%);
+  bottom: -120px; left: -80px;
+}
+.ai-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);
+}
+.ai-inner { position: relative; }
+.ai-head { max-width: 44em; margin: 0 auto 44px; text-align: center; }
+.ai-head h2 { color: #fff; font-size: clamp(1.9rem, 3.6vw, 2.6rem); }
+.ai-sub { color: #cfe7ea; font-size: 1.08rem; }
+.eyebrow-light { color: var(--cyan); }
+
+.ai-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.ai-card {
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: var(--radius);
+  padding: 26px 22px;
+  backdrop-filter: blur(6px);
+  transition: transform .18s ease, background .2s ease, border-color .2s ease;
+}
+.ai-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255,255,255,.12);
+  border-color: var(--cyan);
+}
+.ai-card-icon {
+  font-size: 1.6rem;
+  width: 50px; height: 50px;
+  display: grid; place-items: center;
+  border-radius: 12px;
+  background: rgba(255,255,255,.12);
+  margin-bottom: 14px;
+}
+.ai-card h3 { color: #fff; font-size: 1.1rem; }
+.ai-card p { color: #cfe7ea; font-size: .95rem; margin: 0; }
+
+.ai-cta {
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.ai-cta p { color: #eafafb; font-size: 1.12rem; max-width: 36em; margin: 0; }
+.ai-cta em { color: var(--cyan); font-style: normal; font-weight: 700; }
+
 /* ---------- Areas ---------- */
 .areas {
   display: grid;
@@ -509,6 +622,8 @@ img { max-width: 100%; display: block; }
 .form-note.ok { color: #15803d; }
 .form-note.err { color: #b91c1c; }
 .form-fineprint { margin: 14px 0 0; font-size: .88rem; color: var(--slate); }
+.hp-field { position: absolute !important; left: -9999px; opacity: 0; height: 0; width: 0; }
+.btn[disabled] { opacity: .6; cursor: progress; }
 
 .contact-details { display: grid; gap: 20px; }
 .detail-card {
@@ -555,6 +670,7 @@ img { max-width: 100%; display: block; }
   .hero-inner, .about-grid, .contact-grid { grid-template-columns: 1fr; }
   .cards { grid-template-columns: repeat(2, 1fr); }
   .areas { grid-template-columns: repeat(2, 1fr); }
+  .ai-cards { grid-template-columns: repeat(2, 1fr); }
   .hero-card { max-width: 480px; }
 }
 
@@ -585,5 +701,5 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 480px) {
-  .cards, .areas { grid-template-columns: 1fr; }
+  .cards, .areas, .ai-cards { grid-template-columns: 1fr; }
 }

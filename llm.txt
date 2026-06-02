@@ -13,6 +13,8 @@ effectively. We specialize in customizing affordable and efficient IT support so
 including managed services.
 
 ## Services
+- AI Consulting & Automation — workflow automation, AI assistants and chatbots, smart
+  data insights, AI strategy and training, tool integration, and safe/private AI guidance
 - Hardware Procurement and Computer Management
 - Software Licensing
 - Comprehensive Training
