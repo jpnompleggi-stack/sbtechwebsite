@@ -1,0 +1,52 @@
+# SBTech Consulting — LLM.txt
+
+## Company Overview
+SBTech Consulting is an independent IT consulting firm based in Palmer, MA, founded in 2014.
+The business is operated by owner Joseph P. Nompleggi and provides vendor-neutral technology
+services to small businesses. Previously registered as an LLC, the company voluntarily dissolved
+that entity in 2025 to operate as a lean independent consultancy with no active legal or
+financial encumbrances.
+
+## What We Do
+We are a small business dedicated to helping other small businesses implement technology
+effectively. We specialize in customizing affordable and efficient IT support solutions,
+including managed services.
+
+## Services
+- Hardware Procurement and Computer Management
+- Software Licensing
+- Comprehensive Training
+- Networking and Installation
+- Security Audits and Monitoring
+- Patching, Repairs, and Virus Removal
+- Troubleshooting and Break/Fix Solutions
+- Managed Services
+- Website Design
+
+## Areas of Expertise
+- Technology Consulting — system integration, software development, IT support
+- Operations Management — process optimization and efficiency enhancement
+- Project Management — oversight of IT and website design projects
+- Data Analytics — data-driven insights for informed decision-making
+- Change Management — organizational transitions and technology integration
+
+## Differentiators
+- Vendor-Agnostic IT Support: Unbiased technology guidance without vendor commissions or
+  software agendas.
+- System optimization, automation, and AI integration.
+- Core IT infrastructure support including networking and cloud solutions.
+
+## Compliance & Security
+We maintain strict professional confidentiality, never sell data, and use secure, encrypted
+communication channels. Security measures include multi-factor authentication and encrypted
+remote management tools aligned with industry standards.
+
+## Contact
+- Email: info@sbtechma.com
+- Phone: 413-813-9224
+- Website: https://sbtechma.com
+- Location: Palmer, MA
+- Hours: Monday–Sunday, 9:00 am – 5:00 pm. Available 24/7 for emergencies.
+- LinkedIn: https://linkedin.com/in/joseph-nompleggi-0834941b
+- Facebook: https://facebook.com/SBTechOnline/
+- X: https://x.com/NompleggiJoseph

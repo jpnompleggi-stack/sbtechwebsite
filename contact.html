@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — SBTech Consulting</title>
+  <meta name="description" content="Get in touch with SBTech Consulting. Call (413) 813-9224 or email info@sbtechma.com. Based in Palmer, MA. Available 24/7 for emergencies." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">SB</span>
+        <span class="brand-text">SBTech<span class="brand-accent">Consulting</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#areas">What We Do</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#partners">Partners</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="btn btn-primary nav-cta">Get in Touch</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact Us</p>
+        <h1>Get in touch with <span class="grad">SBTech Consulting</span></h1>
+        <p class="lead">Drop us a line — we'd love to hear about your business and how we can help.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <!-- Form -->
+        <div class="contact-form-wrap">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Name <span class="req">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="req">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" />
+            </div>
+            <div class="field">
+              <label for="message">How can we help?</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us a bit about your business and what you need…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send message</button>
+            <p class="form-note" id="formNote" role="status"></p>
+            <p class="form-fineprint">
+              Prefer email? Reach us directly at
+              <a href="mailto:info@sbtechma.com">info@sbtechma.com</a>.
+            </p>
+          </form>
+        </div>
+
+        <!-- Details -->
+        <aside class="contact-details">
+          <div class="detail-card">
+            <h3>Contact details</h3>
+            <ul class="detail-list">
+              <li>
+                <span class="detail-label">Phone</span>
+                <a href="tel:+14138139224">(413) 813-9224</a>
+              </li>
+              <li>
+                <span class="detail-label">Email</span>
+                <a href="mailto:info@sbtechma.com">info@sbtechma.com</a>
+              </li>
+              <li>
+                <span class="detail-label">Location</span>
+                <span>Palmer, MA</span>
+              </li>
+              <li>
+                <span class="detail-label">Hours</span>
+                <span>Monday–Sunday, 9:00 am – 5:00 pm<br /><em>Available 24/7 for emergencies</em></span>
+              </li>
+            </ul>
+          </div>
+          <div class="detail-card">
+            <h3>Follow along</h3>
+            <div class="social">
+              <a href="https://facebook.com/SBTechOnline/" target="_blank" rel="noopener">Facebook</a>
+              <a href="https://linkedin.com/in/joseph-nompleggi-0834941b" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://x.com/NompleggiJoseph" target="_blank" rel="noopener">X</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand brand-footer">
+          <span class="brand-mark">SB</span>
+          <span class="brand-text">SBTech<span class="brand-accent">Consulting</span></span>
+        </a>
+        <p class="footer-blurb">Your trusted technology consulting partner. Affordable, vendor-neutral IT support for small businesses.</p>
+        <div class="social">
+          <a href="https://facebook.com/SBTechOnline/" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://linkedin.com/in/joseph-nompleggi-0834941b" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://x.com/NompleggiJoseph" target="_blank" rel="noopener">X</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#areas">What We Do</a>
+        <a href="index.html#about">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <a href="tel:+14138139224">(413) 813-9224</a>
+        <a href="mailto:info@sbtechma.com">info@sbtechma.com</a>
+        <span>Palmer, MA</span>
+        <span>Mon–Sun, 9am–5pm · 24/7 emergencies</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>Copyright © 2018–<span id="year"></span> SBTech Consulting · Palmer, MA · All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
