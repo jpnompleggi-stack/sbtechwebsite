@@ -10,9 +10,12 @@ can be hosted anywhere — including GoDaddy.
 |------|---------|
 | `index.html` | Home — hero, services, expertise areas, about, partners, CTA |
 | `contact.html` | Contact page — form and contact details |
+| `privacy.html` | Privacy Policy |
+| `terms.html` | Terms of Use |
 | `styles.css` | All styling (responsive) |
 | `script.js` | Mobile nav, form handling, footer year |
-| `llm.txt` | AI/LLM information file |
+| `llms.txt` | AI agent info file (llmstxt.org standard) |
+| `llm.txt` | AI/LLM information file (legacy filename) |
 | `assets/` | Logo, hero illustration, favicon, partner logos |
 
 ## Local preview

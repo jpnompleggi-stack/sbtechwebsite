@@ -7,6 +7,14 @@ services to small businesses. Previously registered as an LLC, the company volun
 that entity in 2025 to operate as a lean independent consultancy with no active legal or
 financial encumbrances.
 
+## About the Owner
+Joseph P. Nompleggi is the Founder and Principal Consultant of SBTech Consulting. He has
+operated the practice since 2014, serving small businesses in Palmer, MA and the surrounding
+Western Massachusetts area with hands-on, vendor-neutral technology guidance.
+- LinkedIn: https://linkedin.com/in/joseph-nompleggi-0834941b
+- Facebook: https://facebook.com/SBTechOnline/
+- X (Twitter): https://x.com/NompleggiJoseph
+
 ## What We Do
 We are a small business dedicated to helping other small businesses implement technology
 effectively. We specialize in customizing affordable and efficient IT support solutions,
@@ -52,3 +60,7 @@ remote management tools aligned with industry standards.
 - LinkedIn: https://linkedin.com/in/joseph-nompleggi-0834941b
 - Facebook: https://facebook.com/SBTechOnline/
 - X: https://x.com/NompleggiJoseph
+
+## Legal
+- Privacy Policy: https://sbtechma.com/privacy.html
+- Terms of Use: https://sbtechma.com/terms.html
