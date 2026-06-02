@@ -153,6 +153,9 @@ img { max-width: 100%; display: block; }
 .nav > a:hover, .nav > a.active { color: var(--navy); }
 .nav .nav-cta { color: #fff; }
 .nav .nav-cta:hover { color: #fff; }
+.nav .btn { padding: .55rem 1.1rem; font-size: .9rem; }
+.nav-login { display: inline-flex; align-items: center; gap: .4rem; }
+.nav-login svg { width: 15px; height: 15px; }
 
 .nav-toggle {
   display: none;
