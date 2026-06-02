@@ -45,6 +45,12 @@ To activate it:
 Until the key is set, the form gracefully falls back to opening the visitor's email
 client addressed to `info@sbtechma.com`, so it still works.
 
+## Deploying
+
+See **[DEPLOY.md](DEPLOY.md)** for how to publish this site to `sbtechma.com`. Note: GoDaddy's
+drag-and-drop *Website Builder* cannot host custom code — the guide covers the working options
+(GoDaddy cPanel hosting, or a free static host like Cloudflare Pages with your domain pointed at it).
+
 ## Contact
 
 - Web: https://sbtechma.com
