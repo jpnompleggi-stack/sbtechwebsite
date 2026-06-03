@@ -145,13 +145,62 @@ img { max-width: 100%; display: block; }
   align-items: center;
   gap: 1.6rem;
 }
-.nav > a {
+.nav > a, .nav-link {
   color: var(--slate);
   font-weight: 500;
   font-size: .95rem;
   white-space: nowrap;
 }
-.nav > a:hover, .nav > a.active { color: var(--navy); }
+.nav > a:hover, .nav > a.active, .nav-link:hover { color: var(--navy); }
+
+/* Dropdown menu */
+.nav-item { position: relative; display: inline-flex; }
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  cursor: pointer;
+}
+.nav-link .caret {
+  width: 14px; height: 14px;
+  transition: transform .2s ease;
+}
+.nav-item:hover .nav-link .caret,
+.nav-item:focus-within .nav-link .caret { transform: rotate(180deg); }
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity .18s ease, transform .18s ease, visibility .18s;
+  z-index: 60;
+}
+.nav-item:hover .dropdown,
+.nav-item:focus-within .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.dropdown a {
+  padding: 9px 12px;
+  border-radius: 8px;
+  color: var(--slate);
+  font-size: .92rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.dropdown a:hover { background: var(--bg-soft); color: var(--navy); }
 .nav .nav-cta { color: #fff; }
 .nav .nav-cta:hover { color: #fff; }
 .nav .btn { padding: .55rem 1.1rem; font-size: .9rem; }
@@ -736,6 +785,25 @@ img { max-width: 100%; display: block; }
   .nav.open { transform: translateY(0); }
   .nav > a { padding: 10px 0; }
   .nav .nav-cta { margin-top: 6px; }
+  /* Dropdown expands inline inside the mobile menu */
+  .nav-item { display: block; width: 100%; }
+  .nav-link { padding: 10px 0; }
+  .nav-link .caret { display: none; }
+  .dropdown {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    min-width: 0;
+    padding: 0 0 4px 14px;
+    margin: 0 0 4px 4px;
+    border: none;
+    border-left: 2px solid var(--line);
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+  .dropdown a { padding: 8px 0; }
   .nav-toggle { display: flex; }
   .nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
   .nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
