@@ -17,6 +17,7 @@ SBTech Consulting provides unbiased technology guidance — no vendor commission
 ## Services
 
 - AI Consulting & Automation: workflow automation, AI assistants and chatbots, smart data insights, AI strategy and training, tool integration, and safe/private AI guidance
+- Audio/Video Services for meetings and events: breakout and meeting rooms, speakers and sound, wireless and lavalier microphones, screens and projectors, event recording, and on-site setup and support
 - Vendor-Agnostic IT Support: unbiased technology guidance without vendor commissions
 - Managed Services: ongoing, hands-off management of technology for a predictable cost
 - Hardware procurement and computer management

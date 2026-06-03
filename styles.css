@@ -149,6 +149,7 @@ img { max-width: 100%; display: block; }
   color: var(--slate);
   font-weight: 500;
   font-size: .95rem;
+  white-space: nowrap;
 }
 .nav > a:hover, .nav > a.active { color: var(--navy); }
 .nav .nav-cta { color: #fff; }
@@ -460,6 +461,8 @@ img { max-width: 100%; display: block; }
 .ai-cta p { color: #eafafb; font-size: 1.12rem; max-width: 36em; margin: 0; }
 .ai-cta em { color: var(--cyan); font-style: normal; font-weight: 700; }
 
+.av-cta { text-align: center; margin-top: 36px; }
+
 /* ---------- Areas ---------- */
 .areas {
   display: grid;
@@ -716,7 +719,7 @@ img { max-width: 100%; display: block; }
   .hero-card { max-width: 480px; }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1024px) {
   .nav {
     position: fixed;
     inset: 72px 0 auto 0;
