@@ -65,5 +65,8 @@ remote management tools aligned with industry standards.
 - X: https://x.com/NompleggiJoseph
 
 ## Legal
+- Legal index: https://sbtechma.com/legal.html
 - Privacy Policy: https://sbtechma.com/privacy.html
 - Terms of Use: https://sbtechma.com/terms.html
+- Data Processing Addendum (DPA): https://sbtechma.com/dpa.html
+- Master Services Agreement (MSA): https://sbtechma.com/msa.html

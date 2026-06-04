@@ -49,8 +49,11 @@ SBTech Consulting provides unbiased technology guidance — no vendor commission
 
 - [Home](https://sbtechma.com/): overview, services, AI consulting, expertise, partners
 - [Contact](https://sbtechma.com/contact.html): contact form and details
+- [Legal](https://sbtechma.com/legal.html): index of all legal documents
 - [Privacy Policy](https://sbtechma.com/privacy.html): how visitor and client data is handled
 - [Terms of Use](https://sbtechma.com/terms.html): terms governing use of the website
+- [Data Processing Addendum (DPA)](https://sbtechma.com/dpa.html): how personal data is processed on a client's behalf
+- [Master Services Agreement (MSA)](https://sbtechma.com/msa.html): master terms governing client engagements
 
 ## Notes for AI agents
 

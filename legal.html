@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us — SBTech Consulting</title>
-  <meta name="description" content="Get in touch with SBTech Consulting. Call (413) 813-9224 or email info@sbtechma.com. Based in Palmer, MA. Available 24/7 for emergencies." />
-  <link rel="canonical" href="https://sbtechma.com/contact.html" />
+  <title>Legal — SBTech Consulting</title>
+  <meta name="description" content="SBTech Consulting legal documents: Privacy Policy, Terms of Use, Data Processing Addendum (DPA), and Master Services Agreement (MSA)." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sbtechma.com/legal.html" />
 
   <!-- Open Graph / social -->
   <meta property="og:site_name" content="SBTech Consulting" />
-  <meta property="og:title" content="Contact SBTech Consulting" />
-  <meta property="og:description" content="Get in touch with SBTech Consulting — call (413) 813-9224 or email info@sbtechma.com. Palmer, MA." />
+  <meta property="og:title" content="Legal — SBTech Consulting" />
+  <meta property="og:description" content="Privacy Policy, Terms of Use, Data Processing Addendum (DPA), and Master Services Agreement (MSA)." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://sbtechma.com/contact.html" />
+  <meta property="og:url" content="https://sbtechma.com/legal.html" />
   <meta property="og:image" content="https://sbtechma.com/assets/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -26,9 +27,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css?v=2" />
+
+  <!-- Structured data: helps Google and AI agents discover the legal documents -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "SBTech Consulting — Legal",
+    "url": "https://sbtechma.com/legal.html",
+    "about": "Legal documents for SBTech Consulting",
+    "hasPart": [
+      { "@type": "DigitalDocument", "name": "Privacy Policy", "url": "https://sbtechma.com/privacy.html" },
+      { "@type": "DigitalDocument", "name": "Terms of Use", "url": "https://sbtechma.com/terms.html" },
+      { "@type": "DigitalDocument", "name": "Data Processing Addendum (DPA)", "url": "https://sbtechma.com/dpa.html" },
+      { "@type": "DigitalDocument", "name": "Master Services Agreement (MSA)", "url": "https://sbtechma.com/msa.html" }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <!-- Header -->
   <header class="site-header" id="top">
     <div class="container header-inner">
       <a href="index.html" class="brand" aria-label="SBTech Consulting home">
@@ -47,7 +64,7 @@
         </div>
         <a href="index.html#areas">What We Do</a>
         <a href="index.html#about">About</a>
-        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html">Contact</a>
         <a href="https://www.am.remote.management/dashboard/" target="_blank" rel="noopener" class="btn btn-ghost nav-login">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
           RMM Login
@@ -63,80 +80,34 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Contact Us</p>
-        <h1>Get in touch with <span class="grad">SBTech Consulting</span></h1>
-        <p class="lead">Drop us a line — we'd love to hear about your business and how we can help.</p>
+        <p class="eyebrow">Legal</p>
+        <h1>Legal <span class="grad">Documents</span></h1>
+        <p class="lead">Our policies and agreements — published openly for transparency. Click any document to read it in full.</p>
       </div>
     </section>
 
-    <section class="section contact-section">
-      <div class="container contact-grid">
-        <!-- Form -->
-        <div class="contact-form-wrap">
-          <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
-            <!-- Web3Forms config: replace the access key below with your own (see README) -->
-            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
-            <input type="hidden" name="subject" value="New inquiry from sbtechma.com" />
-            <input type="hidden" name="from_name" value="SBTech Consulting Website" />
-            <!-- Honeypot spam trap (hidden from real users) -->
-            <input type="checkbox" name="botcheck" class="hp-field" tabindex="-1" autocomplete="off" />
-            <div class="field">
-              <label for="name">Name <span class="req">*</span></label>
-              <input type="text" id="name" name="name" autocomplete="name" required />
-            </div>
-            <div class="field">
-              <label for="email">Email <span class="req">*</span></label>
-              <input type="email" id="email" name="email" autocomplete="email" required />
-            </div>
-            <div class="field">
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="phone" autocomplete="tel" />
-            </div>
-            <div class="field">
-              <label for="message">How can we help?</label>
-              <textarea id="message" name="message" rows="5" placeholder="Tell us a bit about your business and what you need…"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Send message</button>
-            <p class="form-note" id="formNote" role="status"></p>
-            <p class="form-fineprint">
-              Prefer email? Reach us directly at
-              <a href="mailto:info@sbtechma.com">info@sbtechma.com</a>.
-            </p>
-          </form>
-        </div>
-
-        <!-- Details -->
-        <aside class="contact-details">
-          <div class="detail-card">
-            <h3>Contact details</h3>
-            <ul class="detail-list">
-              <li>
-                <span class="detail-label">Phone</span>
-                <a href="tel:+14138139224">(413) 813-9224</a>
-              </li>
-              <li>
-                <span class="detail-label">Email</span>
-                <a href="mailto:info@sbtechma.com">info@sbtechma.com</a>
-              </li>
-              <li>
-                <span class="detail-label">Location</span>
-                <span>Palmer, MA</span>
-              </li>
-              <li>
-                <span class="detail-label">Hours</span>
-                <span>Monday–Sunday, 9:00 am – 5:00 pm<br /><em>Available 24/7 for emergencies</em></span>
-              </li>
-            </ul>
-          </div>
-          <div class="detail-card">
-            <h3>Follow along</h3>
-            <div class="social">
-              <a href="https://facebook.com/SBTechOnline/" target="_blank" rel="noopener">Facebook</a>
-              <a href="https://linkedin.com/in/joseph-nompleggi-0834941b" target="_blank" rel="noopener">LinkedIn</a>
-              <a href="https://x.com/NompleggiJoseph" target="_blank" rel="noopener">X</a>
-            </div>
-          </div>
-        </aside>
+    <section class="section">
+      <div class="container legal-hub">
+        <a class="legal-doc" href="privacy.html">
+          <h3>Privacy Policy</h3>
+          <p>How we collect, use, and protect your information — and our commitment never to sell your data.</p>
+          <span class="legal-doc-go">Read the Privacy Policy →</span>
+        </a>
+        <a class="legal-doc" href="terms.html">
+          <h3>Terms of Use</h3>
+          <p>The terms governing your use of the SBTech Consulting website.</p>
+          <span class="legal-doc-go">Read the Terms of Use →</span>
+        </a>
+        <a class="legal-doc" href="dpa.html">
+          <h3>Data Processing Addendum (DPA)</h3>
+          <p>How we process personal data on a client’s behalf — security, sub-processors, and data-protection obligations. Supplements the MSA.</p>
+          <span class="legal-doc-go">Read the DPA →</span>
+        </a>
+        <a class="legal-doc" href="msa.html">
+          <h3>Master Services Agreement (MSA)</h3>
+          <p>The master terms governing our engagements — services, statements of work, fees, liability, and termination.</p>
+          <span class="legal-doc-go">Read the MSA →</span>
+        </a>
       </div>
     </section>
   </main>
